@@ -1,4 +1,7 @@
 # Changelog
+## v2.5
+
+- Updated loop to only return first item in array
 
 ## v2.4
 
