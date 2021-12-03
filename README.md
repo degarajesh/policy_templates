@@ -131,6 +131,10 @@ Reference
 - [Google Old Snapshots](./cost/google/old_snapshots/)
 - [Google Unused Volumes](./cost/google/unattached_volumes/)
 
+##### Native Recommendations
+
+- [Google Recommender Policy](./cost/google/recommender/)
+
 ##### Other
 
 - [Google Unutilized IP Addresses](./cost/google/unutilized_ip_addresses/)
@@ -157,7 +161,9 @@ Reference
 - [AWS Minimum Password Length](./security/aws/iam_min_password_length/)
 - [AWS Prevent Password Reuse](./security/aws/iam_prevent_password_reuse/)
 - [AWS Disable Credentials Unused For 45+ Days](./security/aws/iam_disable_45_day_creds/)
+- [AWS Ensure One Active Key Per IAM User](./security/aws/iam_one_active_key_per_user/)
 - [AWS Rotate Access Keys](./security/aws/iam_rotate_access_keys/)
+- [AWS Ensure IAM Users Receive Permissions Only Through Groups](./security/aws/iam_users_perms_via_groups_only/)
 - [AWS Access Analyzer Enabled](./security/aws/iam_access_analyzer_enabled/)
 - [AWS Support Role Created](./security/aws/iam_support_role_created/)
 - [AWS Report Attached Admin IAM Policies](./security/aws/iam_no_admin_iam_policies_attached/)
@@ -165,14 +171,23 @@ Reference
 
 ##### Database
 
-- [AWS Unencrypted RDS Instances](./security/aws/rds_unencrypted/)
 - [AWS Publicly Accessible RDS Instances](./security/aws/rds_publicly_accessible/)
+
+###### CIS Policies
+
+- [AWS Unencrypted RDS Instances](./security/aws/rds_unencrypted/)
 
 ##### Storage
 
 - [AWS Open Buckets](./security/storage/aws/public_buckets/)
-- [AWS Unencrypted S3 Buckets](./security/aws/unencrypted_s3_buckets/)
 - [AWS Unencrypted Volumes](./security/aws/ebs_unencrypted_volumes/)
+
+###### CIS Policies
+
+- [AWS S3 Ensure Buckets Block Public Access](./security/aws/s3_ensure_buckets_block_public_access/)
+- [AWS S3 Ensure MFA Delete Enabled](./security/aws/s3_ensure_mfa_delete_enabled/)
+- [AWS Unencrypted S3 Buckets](./security/aws/unencrypted_s3_buckets/)
+- [AWS S3 Buckets Deny HTTP](./security/aws/s3_buckets_deny_http/)
 
 ##### Load Balancers
 
@@ -186,6 +201,8 @@ Reference
 
 #### Azure
 
+- [Azure Resources with public IP address](./security/azure/resources_with_public_ip_address)
+
 ##### Database
 
 - [Azure Publicly Accessible Managed SQL Instance](./security/azure/sql_publicly_accessible_managed_instance/)
@@ -197,6 +214,10 @@ Reference
 ##### Storage
 
 - [Azure Storage Accounts Without HTTPs Enforced](./security/storage/azure/storage_account_https_enabled/)
+
+###### CIS Policies
+
+- [AWS EBS Ensure Encryption By Default](./security/aws/ebs_ensure_encryption_default/)
 
 #### Google
 

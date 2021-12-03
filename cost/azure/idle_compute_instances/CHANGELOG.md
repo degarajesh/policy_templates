@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.12
+
+- Fix non-optimal array searching for costs
+
+## v2.11
+
+- Adding subscription filter to deal with timeout
+
 ## v2.10
 
 - Debug param added (off by default, for EU app); use rs_optima_host, not hardcoded hostname
