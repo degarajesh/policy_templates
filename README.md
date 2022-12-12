@@ -112,7 +112,7 @@ Reference
 ##### Database
 
 - [Azure Rightsize SQL Instances](./cost/azure/rightsize_sql_instances/)
-- [Azure Unused SQL Databases](./cost/azure/unused_sql_databases/)
+- [Azure Unused SQL Databases](./cost/azure/unused_sql_databases/) 
 
 ##### Storage
 
